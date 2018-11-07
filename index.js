@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const cfg = require('./index.json');
 const prefix = ("/")
+const token = process.env.token;
 
 bot.on("ready", function() { 
     bot.user.setGame("Le Binks, /help");
@@ -26,4 +26,4 @@ bot.on('message', msg => {
         console.log("Une personne a demandé le lien du disord.")
 });
 
-bot.login(cfg.token);
+bot.login(token);
