@@ -4,7 +4,7 @@ const cfg = require('./index.json');
 const prefix = ("/")
 
 bot.on("ready", function() { 
-    bot.user.setGame("Le Binks, .help");
+    bot.user.setGame("Le Binks, /help");
     console.log("Le bot a bien ete connecte");
 });
 
