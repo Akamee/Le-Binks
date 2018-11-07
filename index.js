@@ -4,7 +4,7 @@ const prefix = ("/")
 const token = process.env.token;
 
 bot.on("ready", function() { 
-    bot.user.setGame("Le Binks, /help");
+    bot.user.setGame("𝙇𝙀 𝘽𝙄𝙉𝙆𝙎™ , /help");
     console.log("Le bot a bien ete connecte");
 });
 
